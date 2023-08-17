@@ -6,13 +6,15 @@ class MenuItem {
   final String link;
   final IconData icon;
 
-  const MenuItem(
+   const MenuItem(
       {required this.title,
       required this.subtitle,
       required this.link,
       required this.icon});
 
-  static const appMenuItems = <MenuItem>[
+   
+}
+ const List<MenuItem> appMenuItems = [
     MenuItem(
         title: 'Botones',
         subtitle: 'Varios botones en Flutter',
@@ -24,4 +26,3 @@ class MenuItem {
         link: '/card',
         icon: Icons.credit_card),        
   ];
-}
