@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   go_router:
-  
+  flutter_riverpod:
 dev_dependencies:
   flutter_test:
     sdk: flutter
